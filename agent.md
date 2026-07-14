@@ -119,3 +119,59 @@ Ao final, inclua 1–2 perguntas curtas **para destravar o próximo passo**, por
         </button>
       );
     }
+
+  2. Páginas: Exemplificando como vai ficar a organização de blocos de código (div, section, header, footer, etc)
+     
+    import { Button } from "@/components/ui/Button";
+    import Link from "next/link";
+    
+    export default function Home() {
+      return (
+        <main className="relative pt-16 lg:pt-20">
+          <header className="fixed top-0 left-0 w-full h-16 lg:h-20 bg-white flex items-center justify-between px-4 lg:px-20 z-[999]">
+            <div className="flex items-center">
+              <Link href="/" className="flex items-center -gap-3">
+              </Link>
+            </div>
+    
+            <nav className="hidden lg:flex items-center gap-6 lg:text-xl text-black z-[1000] ">
+              <a></a>
+            </nav>
+          </header>
+    
+          <section className="relative h-[226px] md:h-[386px] lg:min-h-[calc(100vh-5rem)] w-full overflow-hidden">
+            <div
+              className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat pointer-events-none"
+              style={{
+                backgroundImage: "url('/images/banner.avif')",
+              }}
+            >
+            
+            </div>
+    
+            <div className="relative z-10 flex items-center h-full px-8 md:px-14 lg:px-28 lg:pt-24">
+            
+            </div>
+          </section>
+    
+          <section
+            id="sobre-nos"
+            className="relative scroll-mt-20 w-full min-h-fit flex flex-col items-center overflow-hidden py-16 md:py-24 lg:py-32 px-6 md:px-16 lg:px-40"
+          >
+            
+          </section>
+    
+          <section>
+          </section>
+    
+          <footer className="w-full bg-[#3B4CCA] text-white px-6 py-8 md:px-12 lg:px-20">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
+            </div>
+    
+            <div className="max-w-7xl mx-auto mt-8 pt-4 border-t border-white/10 text-center text-[10px] opacity-60">
+              © {new Date().getFullYear()}. Todos os direitos reservados.
+            </div>
+          </footer>
+        </main>
+      );
+    }
