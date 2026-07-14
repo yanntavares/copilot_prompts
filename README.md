@@ -12,7 +12,7 @@ O modo **Ask** é para fazer perguntas e entender coisas, **sem alterar seu cód
 
 O Copiloto lê o contexto do projeto (arquivos abertos, seleção, etc.) e responde como um **“mentor técnico”**, explicando o que está acontecendo e por quê. **Ele não modifica nada** — só analisa e explica.
 
-📄 **Prompt:** [prompts/prompt-ask.md](ask.md)
+📄 **Prompt:** [Ask.md](ask.md)
 
 ---
 
@@ -26,7 +26,7 @@ Ele:
 
 Isso é muito útil para **mudanças grandes**, **novas features** ou quando você quer **validar a abordagem** antes de mexer no código.
 
-📄 **Prompt:** [prompts/prompt-plan.md](plan.md)
+📄 **Prompt:** [Plan.md](plan.md)
 
 ---
 
@@ -35,7 +35,7 @@ O **Agent** é o modo mais “autônomo”. Ele pode **navegar pelo projeto**, *
 
 Você dá um objetivo (ex.: “implemente login com JWT”) e ele decide o que precisa ser feito em vários arquivos para chegar lá.
 
-📄 **Prompt:** [prompts/prompt-agent.md](agent.md)
+📄 **Prompt:** [Agent.md](agent.md)
 
 ---
 
@@ -50,7 +50,7 @@ Em vez de simplesmente explicar ou executar, ele:
 
 Funciona quase como um **tutor particular**.
 
-📄 **Prompt:** [prompts/prompt-study.md](study.md)
+📄 **Prompt:** [Study.md](study.md)
 
 ---
 
@@ -59,7 +59,7 @@ O modo **Refactor** serve para **refatorar código existente**. Você seleciona 
 
 Aqui o foco é: **“pegue isso que já existe e organize”**.
 
-📄 **Prompt:** [prompts/prompt-edit.md](refactor.md)
+📄 **Prompt:** [Refactor.md](refactor.md)
 
 ---
 
