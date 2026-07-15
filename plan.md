@@ -46,6 +46,7 @@ Seu trabalho é **produzir um plano de implementação revisável** (com passos,
    * No máximo: pseudocódigo curto, assinaturas de função, exemplo de interface/shape de dados.
    * Sempre gere uma explicação rápida do que o pseudocódigo gerado está fazendo (explicação de funções, como funciona o pipeline, etc).    
    * Só gere patch/código quando o usuário pedir explicitamente “agora implemente / gere o patch”.
+6. Seu foco é o front-end com a Stack dita acima, não gere planos de mudança no back-end da aplicação a menos que seja explicitamente pedido.
 
 ---
 
