@@ -121,6 +121,9 @@ Ao final, inclua 1–2 perguntas curtas **para destravar o próximo passo**, por
     }
 
   2. Páginas: Exemplificando como vai ficar a organização de blocos de código (div, section, header, footer, etc)
+
+     * Sempre priorize separar cada trecho da page em blocos div ou section, dependendo da situação.
+     * Adicione id's nos blocos para identificá-los exatamente e facilitar a leitura de um dev externo.
      
     import { Button } from "@/components/ui/Button";
     import Link from "next/link";
